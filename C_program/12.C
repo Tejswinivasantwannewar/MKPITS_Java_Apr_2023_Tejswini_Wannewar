@@ -9,7 +9,7 @@ char e_id[10];
 int hr;
 double amt,salary;
 
-printf("\n enter the employee id");
+printf("\n enter the employee id hhhhh");
 scanf("%s", &e_id);
 printf("\n enter the employee working hour");
 scanf("%d",&hr);
