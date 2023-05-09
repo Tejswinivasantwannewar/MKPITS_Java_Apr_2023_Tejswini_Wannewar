@@ -6,7 +6,7 @@
 void main()
 {
  clrscr();
-   printf("\n hello world\nTejswini vasant wannewar");
+   printf("\n hello world\nTejswini vasant wannewar hiii");
    getch();
 }
 
