@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: rgb(65, 0, 129);
+    height: 1300px;
+    width: 100%;
+}
+.a{
+    height: 50px;
+    width: 100%;
+    border: 4px solid green;
+    
+}

@@ -1,0 +1,37 @@
+ .a {
+   
+    background-color: rgb(118, 156, 3);
+    height: 20px;
+}
+
+.abc{
+    color: red;
+    
+}
+.a{
+    background-color: greenyellow;
+    
+}
+h2{
+    color: palevioletred;
+    background-color: black;
+}
+h1{
+    color: red;
+    height: 60px;
+    background-color:rgb(26, 84, 159);
+}
+div {
+    color: palevioletred;
+    background-color: antiquewhite;
+    height: 50px;
+}
+.b{
+    background-color:blue;
+    color: white;
+    border: 2px solid black;
+}
+img{
+    height: 1200px;
+    width: 100%;
+}
