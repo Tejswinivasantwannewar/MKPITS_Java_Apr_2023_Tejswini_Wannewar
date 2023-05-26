@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.border{
+    height: 700px;
+    width: 50%;
+    border-color: 60px solid red;
+}
