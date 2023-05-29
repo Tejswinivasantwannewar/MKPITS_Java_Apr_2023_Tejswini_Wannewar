@@ -1,0 +1,10 @@
+class Addition
+{
+public int addInteger(int number1,number2)
+{
+return number1+number2;
+}
+}
+Addition addition1=new ddition();
+int answer=addition1.addInteger(10,13);
+System.out.println(answer);
