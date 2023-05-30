@@ -1,0 +1,35 @@
+ul{
+    /* color: rgb(45, 3, 3); */
+    width: 100%; 
+    font-size: larger;
+    background-color: rgb(200, 212, 215);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid black;
+}
+a{
+    text-decoration: none; 
+    margin: 30px;
+    color: rgb(45, 3, 3);  
+}
+a:hover{
+    background-color: rgba(128, 88, 177, 0.5);
+    font-style: italic;
+    text-decoration: none;
+    font-size: 30px; 
+    border-bottom: 3px solid rgb(117, 8, 8);
+  
+
+}
+img{
+    
+    width: 200px;
+    align:left;
+    border-radius: 50%;
+}
+
+li
+{
+    font-size: larger;
+}
