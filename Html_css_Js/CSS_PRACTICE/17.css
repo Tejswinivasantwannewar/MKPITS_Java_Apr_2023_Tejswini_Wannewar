@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ul{
+    width: 200px;
+    overflow: auto;
+    background-color: rgb(86, 171, 208);
+    text-align: left;
+    height: 100%;
+    position: fixed;
+    padding: 5x;
+    
+    
+    
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(107, 20, 94);
+    font-size: medium;
+    font-size: xx-large;
+    margin-top: 30px;
+    border: 2px solid rgb(30, 20, 20);
+    border-radius: 20px;
+}
+li a:hover{
+    color: blueviolet;
+    background-color: aliceblue;
+    font-style: italic;
+   
+}
+.active{
+    color: blueviolet;
+    background-color: aliceblue;
+}
+.aside{
+    margin-left: 200px;
+    font-size: large;
+}
