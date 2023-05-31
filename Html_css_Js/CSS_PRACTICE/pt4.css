@@ -1,0 +1,34 @@
+ul{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    width: 70%;
+    border-bottom: 5px solid rgb(255, 155, 15);
+    margin-left: 200px;
+}
+li a{
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+    border-right: 2px solid white;
+    /* border-left: 2px solid white; */
+}
+li a:hover{
+        background-color: gray;
+        box-shadow: white 2px 2px 2px 2px;
+        opacity: 0.8;
+        border-bottom: 1px solid white;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        
+        
+}
