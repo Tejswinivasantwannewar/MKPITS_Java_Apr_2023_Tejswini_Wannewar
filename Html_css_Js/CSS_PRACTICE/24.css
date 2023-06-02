@@ -1,0 +1,22 @@
+div.static {
+  
+    background-color: rgb(180, 152, 251);
+    position: sticky;
+    bottom: 10px;
+
+    width: 100%;
+    color: black;
+ }
+ li{
+     display: flex;
+ }
+ div.main{
+     background-color:rgb(112, 216, 119);
+     margin: 30px;
+     
+ }
+ p{
+    padding: 10px;
+    margin: 20px;
+ }
+ 
