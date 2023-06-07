@@ -1,0 +1,32 @@
+.navbar {
+    color: brown;
+    background-color: aqua;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  
+   
+}
+.container-fluid{
+                    height: 100px;
+                    width: 100px;
+                    top: 80px;
+                    color: black;
+                               
+}
+/* .navbar:hover{
+    color: black;
+    opacity:0.5;
+
+} */
+.container-fluid:hover{
+    color: rgb(175, 35, 35);
+ 
+    font-family: cursive;
+}
+.navbar-brand{
+    text-decoration: none;
+    border: 2px dashed green;
+   
+}
