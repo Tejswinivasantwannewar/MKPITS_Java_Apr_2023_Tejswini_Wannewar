@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: pink;
+    overflow: hidden;
+
+}
+section .heading{
+    display: inline-block;
+    position: relative;
+    color: blue;
+    font-size: 4vw;
+    padding: 60px;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+
+}
+section .heading:before{
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 7px;
+    left: 50px;
+    transform: translateX(-50px);
+    bottom: 25%;
+    background: #393939;
+
+}
+section .heading b{
+    color: blueviolet;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.wrapper .container{
+    position: relative;
+    width: 350px;
+    color:brown;
+    margin: 40px 10px;
+    padding: 30px 20px;
+    transition: 0.3s ease;
+
+}
+.wrapper .container .profile{
+    position: absolute;
+    left:50px;
+    transform: scale(-50px);
+    top: -10px;
+    width: 100%;
+    display: block;
+}
+.wrapper .container .profile .imgbox{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin:auto;
+    border: 8px solid yellowgreen;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.wrapper .container .profile .imgbox img{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+.wrapper .container .profile .imgbox:hover img{
+    /* filter: saturate(100%); */
+    transform: scale(0.65);
+}
+.wrapper .container .profile h2{
+    padding: 5px 0;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.wrapper .container p{
+                  margin-top: 50px;
+                  color: #fff;
+                  padding: 0.8px;
+                  font-size: 25px;
+                  opacity: 0.8;      
+}
+.wrapper .container .left{
+                font-size: 30px;
+                display: block;
+                text-align: left;
+                color: red;
+
+
+}
+.wrapper .container .right{
+    font-size: 30px;
+    display: block;
+    text-align: left;
+    color: red;
+
+
+}
+.wrapper .container .social{
+      width: 100%;                      
+}
+.wrapper .container .social i{
+    font-size: 1.2em;
+    color: rgb(11, 11, 8);
+    padding: 8px;
+    background-color: seagreen;
+    border-radius: 4px;
+    box-shadow: 0.4px 4px red;
+}
+.wrapper .container .social i:hover{
+
+}
