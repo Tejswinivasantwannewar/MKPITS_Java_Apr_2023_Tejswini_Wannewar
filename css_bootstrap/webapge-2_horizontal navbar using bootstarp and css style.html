@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webapge-2_horizontal navbar using bootstarp and css style </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="webapge-2_horizontal navbar using bootstarp and css style.css">
+</head>
+<body>
+    <!-- first section for navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo4.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Office
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Nagpur</a></li>
+                  <li><a class="dropdown-item" href="#">Mumbai</a></li>
+                  <li><a class="dropdown-item" href="#">Pune</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Location</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- second section -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/s3.jpg" alt="">
+       
+            <div class="carousel-caption d-none d-md-block">
+              <h1>PenStories</h1>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video autoplay loop muted>
+                <source src="video/w2.mp4" />
+              </video>
+            
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video autoplay loop muted>
+                <source src="video/w1.mp4" />
+              </video>
+            
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>“If you don't have time to read, you don't have the time (or the tools) to write. Simple as that.” </p>
+            </div> -->
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- third sec about us -->
+      <h1>About us</h1>
+      <div class="container text-center">
+        <div class="row row-cols-2">
+          <div class="col6"><img src="img/logo4.png" alt=""></div>
+          <div class="col"><p>A writer is a person who uses written words in different writing styles and techniques to communicate ideas. Writers produce different forms of literary art and creative writing such as novels, <br> short stories, books, poetry, travelogues, plays, screenplays, teleplays, songs, and essays as well as other reports and news articles that may be of interest to the general public. <br> Writers' texts are published across a wide range of media. Skilled writers who are able to use language to express ideas well, often contribute significantly to the cultural content of a society.</p><hr></div>
+          <div class="col"><p>The term "writer" is also used elsewhere in the arts and music, such as songwriter or a screenwriter, but also a stand-alone "writer" typically refers to the creation of written language. Some writers work from an oral tradition. <br>
+            Writers can produce material across a number of genres, fictional or non-fictional. Other writers use multiple media such as graphics or illustration to enhance the communication of their ideas. Another recent demand has been created by civil and government readers for the work of non-fictional technical writers, whose skills create understandable, interpretive documents of a practical or scientific kind. Some writers may use images (drawing, painting, graphics) or multimedia to augment their writing. In rare instances, creative writers are able to communicate their ideas via music as well as words. <br> </p> <hr></div>
+          <div class="col"><img src="img/s6.jpg" alt=""></div>
+        </div>
+      </div>
+     <!-- <div><p>A writer is a person who uses written words in different writing styles and techniques to communicate ideas. Writers produce different forms of literary art and creative writing such as novels, <br> short stories, books, poetry, travelogues, plays, screenplays, teleplays, songs, and essays as well as other reports and news articles that may be of interest to the general public. <br> Writers' texts are published across a wide range of media. Skilled writers who are able to use language to express ideas well, often contribute significantly to the cultural content of a society.[1] <br>
+
+        The term "writer" is also used elsewhere in the arts and music, such as songwriter or a screenwriter, but also a stand-alone "writer" typically refers to the creation of written language. Some writers work from an oral tradition.
+        
+        Writers can produce material across a number of genres, fictional or non-fictional. Other writers use multiple media such as graphics or illustration to enhance the communication of their ideas. Another recent demand has been created by civil and government readers for the work of non-fictional technical writers, whose skills create understandable, interpretive documents of a practical or scientific kind. Some writers may use images (drawing, painting, graphics) or multimedia to augment their writing. In rare instances, creative writers are able to communicate their ideas via music as well as words. <br>
+        
+        As well as producing their own written works, writers often write about how they write (their writing process);[3] why they write (that is, their motivation);[4] and also comment on the work of other writers (criticism).[5] Writers work professionally or non-professionally, that is, for payment or without payment and may be paid either in advance, or on acceptance, or only after their work is published. Payment is only one of the motivations of writers and many are not paid for their work.[citation needed] <br>
+        
+        The term writer has been used as a synonym of author, although the latter term has a somewhat broader meaning and is used to convey legal responsibility for a piece of writing, even if its composition is anonymous, unknown or collaborative. Author most often refers to the writer of a book.[6]</p></div> -->
+
+       <!-- fourth section video -->
+       <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-3">
+            <video autoplay loop muted>
+                <source src="video/writer.mp4" />
+              </video>
+          </div>
+          <div class="col-sm-9">
+            <div class="row">
+              <div class="col-8 col-sm-6">
+                <img src="img/w5.jfif" alt="">
+              </div>
+              <div class="col-4 col-sm-6 fs-5" >
+                “Read, read, read. Read everything  —  trash, classics, good and bad, and see how they do it. Just like a carpenter who works as an apprentice and studies the master. Read! You'll absorb it. Then write. If it's good, you'll find out. If it's not, throw it out of the window.” — William Faulkner
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- 
+       <div class="vd">
+        <video autoplay loop muted>
+          <source src="video/writer.mp4" />
+        </video>
+      </div> -->
+      <!-- <div class="container text-center"> <br><br><br>
+        <div class="row">
+          <div class="col5 col-md-12">
+            <h4> <u>  Services</u></h4> <br><br>
+          </div>
+          <div class="col8 col-md-6">
+            Flipcart <img src="img/f.jfif" alt="">
+          </div>
+          <div class="col8 col-md-6">
+            Amazon <img src="img/a.jfif" alt="">
+          </div>
+        </div>
+      </div> -->
+      <div class="col5 col-md-12">
+        <h4> <u>  Services</u></h4> <br><br>
+      </div>
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="card m-4" style="width: 18rem;">
+            <img src="img/f.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 18rem;">
+            <img src="img/a.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 18rem;">
+            <img src="img/me.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row d-flex justify-content-center">
+          <div class="card m-4" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="card m-4" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div> -->
+          <!-- <div class="card m-4" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card m-4" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+</body>
+</html>

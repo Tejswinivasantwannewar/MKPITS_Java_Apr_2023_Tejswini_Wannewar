@@ -1,0 +1,117 @@
+.a{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    border-top-left-radius:70px ;
+    border-bottom-left-radius:70px ;
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+
+}
+.b{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border-top-left-radius:70px ;
+    border-bottom-left-radius:70px ;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+    top: 200px;
+    border: 2px solid black;
+
+
+
+
+}
+.c{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(65, 225, 121);
+    border-top-right-radius:70px ;
+    border-bottom-right-radius:70px ;
+    position: absolute;
+    z-index: 3;
+    opacity: 0.8;
+    top: 10px;
+    left: 209px;
+    border: 2px solid black;
+
+
+
+
+}
+.d{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(133, 125, 15);
+    border-top-right-radius:70px ;
+    border-bottom-right-radius:70px ;
+    position: absolute;
+    z-index: 4;
+    opacity: 0.5;
+    top: 200px;
+    left: 209px;
+    border: 2px solid black;
+
+
+}
+.e{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(133, 15, 98);
+    border-radius: 50%;
+    top: 90px;
+    left: 100px;
+    position: absolute;
+    z-index: 8;
+    border: 2px solid yellow;
+}
+.f{
+    height: 100px;
+    width: 50px;
+    background-color: rgb(104, 152, 27);
+    border-radius: 50%;
+    top: 10px;
+    left: 180px;
+    position: absolute;
+    z-index: 4;
+    border: 1px solid blue;
+
+}
+.g{
+    height: 120px;
+    width: 50px;
+    background-color: rgb(104, 152, 27);
+    border-radius: 50%;
+    top: 280px;
+    left: 180px;
+    position: absolute;
+    z-index: 4;
+    border: 1px solid blue;
+
+}
+.h{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(215, 134, 195);
+    border-radius: 50%;
+    top: 180px;
+    left: 290px;
+    position: absolute;
+    z-index: 5;
+    border: 1px solid blue;
+
+}
+.i{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(215, 134, 195);
+    border-radius: 50%;
+    top: 180px;
+    left: 15px;
+    position: absolute;
+    z-index: 6;
+    border: 1px solid blue;
+}
