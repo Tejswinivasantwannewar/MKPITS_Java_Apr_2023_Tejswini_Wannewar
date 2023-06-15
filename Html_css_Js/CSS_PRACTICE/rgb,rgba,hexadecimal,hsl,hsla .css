@@ -1,0 +1,53 @@
+h1{
+    color: red;
+    
+}
+h2{
+    color:hsl(111, 63%, 43%)
+    
+}
+h3 {
+    color:hsla(188, 100%, 27%, 1.8);
+}
+h4{
+    color: blueviolet;
+}
+.a{
+    color: rgb(166, 23, 104);
+}
+h5{
+    color:rgba(125,38,140,1.8);
+}
+h6{
+    color:palevioletred;
+}
+p.solid{
+            border-top: 3px solid red;;
+}
+p.dashed{
+            border-style: dashed;
+}
+p.dotted{
+            border-style: dotted;
+}
+p.groove{
+            border-style: groove;
+}
+p.ridge{
+            border-style: ridge;
+}
+p.inset{
+            border-style: inset;
+}
+p.outset{
+            border-style: outset;
+}
+p.none{
+            border-style: none;
+}
+p.hidden{
+            border-style: hidden;
+}
+p.double{
+            border-style: double;
+}

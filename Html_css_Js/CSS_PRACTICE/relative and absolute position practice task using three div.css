@@ -1,0 +1,23 @@
+.parent {
+         border: 4px solid black;
+         height: 500px;
+         width: 80%;
+         background-color: rgb(161, 161, 214) ;
+}
+.child1 img{
+        border: 3px solid red;
+        height: 300px;
+        width: 50%;
+        position: absolute;
+        left: 30px;
+       background-color: aquamarine;
+}
+.child2 img{
+        border: 2px solid blue;
+        height: 150px;
+        width: 30%;
+        position: relative;
+        top: 30px;
+        float: right;
+        background-color:pink;
+}
