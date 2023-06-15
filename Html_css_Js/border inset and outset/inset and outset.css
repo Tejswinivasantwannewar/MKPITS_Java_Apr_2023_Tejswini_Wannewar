@@ -1,0 +1,20 @@
+.main p{
+       
+        /* border: 10px inset green; */
+        /* border: 40px outset red; */
+        padding: 5px;
+        margin: 100px;
+        font-weight: bold;
+        box-shadow:10px 10px 10px grey inset;
+        
+     
+}
+.main h1{
+        /* border: 30px inset yellowgreen; */
+        padding: 5px;
+        margin: 100px;
+        /* box-shadow:10px 10px 10px grey ; */
+        /* font-weight: bold; */
+        box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green inset;
+
+}
