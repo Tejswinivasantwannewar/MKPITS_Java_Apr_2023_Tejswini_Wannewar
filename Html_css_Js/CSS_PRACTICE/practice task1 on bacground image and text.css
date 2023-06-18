@@ -1,0 +1,17 @@
+.myvideo{
+    min-width: 80%;
+    min-height: 80%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.content {
+    position: fixed;
+    top: 50px;
+    background: rgba(26, 1, 1, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
