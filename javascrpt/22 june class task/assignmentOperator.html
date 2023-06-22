@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic operator +=,-=,%=,/=,*=,**=</title>
+</head>
+<body>
+    <h1 id="teju"></h1>
+    <button onclick="equal()"> Equal_assignment</button><br><br>
+    <button onclick="add()"> Addition_assign</button><br><br>
+
+    <button onclick="sub()"> Subtraction_assign</button><br><br>
+    <button onclick="mul()"> Multiplication_assign</button><br><br>
+    <button onclick="multi()"> Multi_double_assign</button><br><br>
+
+    <button onclick="div()"> Division_assign</button><br><br>
+    <button onclick="modulus()">Modulus_assign</button>
+
+    
+
+
+
+    <script>  
+        
+        let x = 150;  
+        let y = 30; 
+        let a=100;
+       
+     //equal to assignment =
+
+        function equal(){
+         
+         x == y;
+        document.getElementById("teju").innerHTML =x;
+        // document.getElementById("teju").innerHTML =y; 
+
+        }
+        
+    // for addition +  ..............
+        function add(){
+          x += 8;
+          
+        
+        document.getElementById("teju").innerHTML =x; 
+       
+
+        }
+        
+    //for subtraction - 
+        function sub(){
+        y -= 2;
+        document.getElementById("teju").innerHTML =y; 
+        }
+      //for multiplication *   
+        function mul(){
+         y *=2;
+
+        document.getElementById("teju").innerHTML =y; 
+        }
+
+     //for division  / 
+        function div(){
+         x /= y;
+        document.getElementById("teju").innerHTML =x; 
+        }
+    //for modulus 
+        function modulus(){
+         x %= 2;
+        document.getElementById("teju").innerHTML =x; 
+        }
+
+        //ths double multiplication operator power what you mentioned in right side.
+        function multi(){
+         y **= 2;
+        document.getElementById("teju").innerHTML =y; 
+        }
+        </script>  
+
+
+</body>
+</html>

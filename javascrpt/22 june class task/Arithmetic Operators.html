@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic operator +,-,%,/,*</title>
+</head>
+<body>
+    <h1 id="teju"></h1>
+    <button onclick="add()"> Addition</button><br><br>
+    <button onclick="sub()"> Subtraction</button><br><br>
+    <button onclick="mul()"> Multiplication</button><br><br>
+    <button onclick="div()"> Division</button><br><br>
+    <button onclick="modulus()">Modulus</button>
+
+    
+
+
+
+    <script>  
+        
+        let x = 150;  
+        let y = 30; 
+      
+    // for addition +  ..............
+        function add(){
+         let z=x+y; 
+        document.getElementById("teju").innerHTML =z; 
+        }
+        
+    //for subtraction - 
+        function sub(){
+         let z=x-y; 
+        document.getElementById("teju").innerHTML =z; 
+        }
+      //for multiplication *   
+        function mul(){
+         let z=x*y; 
+        document.getElementById("teju").innerHTML =z; 
+        }
+
+     //for division  / 
+        function div(){
+         let z=x/y; 
+        document.getElementById("teju").innerHTML =z; 
+        }
+    //for modulus 
+        function modulus(){
+         let z=x%y;
+        document.getElementById("teju").innerHTML =z; 
+        }
+        </script>  
+
+
+</body>
+</html>

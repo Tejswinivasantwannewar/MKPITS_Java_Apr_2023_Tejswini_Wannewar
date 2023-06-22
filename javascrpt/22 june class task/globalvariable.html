@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global variable</title>
+</head>
+<body>
+    <h1 id="teju"></h1>
+    <button onclick="add()"> Addition</button><br><br>
+    <button onclick="sub()"> Subtraction</button><br><br>
+    <button onclick="mul()"> multiplication</button><br><br>
+    <button onclick="div()"> division</button><br><br>
+    <button onclick="full_name()"> Name</button>
+
+
+
+    <script>  
+        
+        let x = 40;  
+        let y = 10; 
+        let first_name="Tejswini";
+        let last_name="Wannewar";
+         
+        function add(){
+         let z=x+y; 
+        document.getElementById("teju").innerHTML =z; 
+        }
+        
+        function sub(){
+         let z=x-y; 
+        document.getElementById("teju").innerHTML =z; 
+        }
+        function mul(){
+         let z=x*y; 
+        document.getElementById("teju").innerHTML =z; 
+        }
+        function div(){
+
+         let z=x/y; 
+        document.getElementById("teju").innerHTML =z; 
+        }
+        function full_name(){
+         let name=first_name+"  "+last_name; 
+        document.getElementById("teju").innerHTML =name; 
+        }
+        
+    
+        </script>  
+
+
+</body>
+</html>
