@@ -7,6 +7,7 @@ public class TwoDimensionalArrayPattern1 {
 
         public static void main(String[] args) {
             Scanner sc =new Scanner(System.in);
+            System.out.println("Enter your size of diamond pattern input only odd number : ");
             int rows=sc.nextInt();
             int size = rows;
 
