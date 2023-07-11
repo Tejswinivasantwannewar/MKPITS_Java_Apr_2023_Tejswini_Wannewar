@@ -1,0 +1,8 @@
+div{
+    background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(120,135,15,0.29735644257703087) 50%, rgba(252,176,69,1) 100%);
+}
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
