@@ -1,0 +1,185 @@
+.navbar  .container-fluid{
+    /* background-color: rgb(243, 178, 245); */
+    background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(129,253,45,1) 100%);
+}
+nav{
+    margin-bottom:15px;
+}
+
+.container{               /navbar/
+height: 500px;
+width: 100%;
+}
+ 
+.bg-img-1{
+    background-image: url(img/p3.png);
+    }
+    .bg-img-2{
+        background-image: url(img/p4.png);   /*carousel */
+    
+    }
+    .bg-img-3{
+        background-image: url(img/p8.png);
+    
+    }
+
+    .carousel-image {
+        height: 10vh;
+        background-repeat: no-repeat;              /* for fit the image*/
+        background-size: cover;
+        background-position: center;
+        }
+
+        .container-flud{
+            display: flex;
+            height: 350px;     /* after carousel us flex*/
+            width: 100%;
+            margin: 40px;
+            
+        }
+
+        .my{
+    
+            width: 150px;
+            height:100px;
+            font-size:30px;
+            border-radius: 30%;     /* button*/
+            position: relative ;
+            left:100px;
+           
+            
+          
+            
+        }
+        .first{
+            position: relative;
+            left: 100px;
+        }
+
+        .second{                   /after carousel part/
+            position: relative;
+            left: 400px;
+           
+    
+        }
+
+        .second p{
+            font-size: 18px;
+            font-family: cursive;
+            background: rgba( 240, 207, 176, 0.45 );
+           box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 12.5px );                          /* background of paragraph*/
+            -webkit-backdrop-filter: blur( 12.5px );
+             border-radius: 10px;
+             border: 1px solid rgba( 255, 255, 255, 0.18 );
+        }
+h1{
+    margin-top: 200px;   /* h1 fix*/ 
+}
+  
+/* plant shows*/
+
+.col {
+    height: 200px;
+    width: 200px;
+   
+    
+
+}.four{
+position: relative;
+right:100px;                    /* shape set*/
+height: 500px;
+width: 400px;
+background: url(graph\ \(7\).png);
+
+}
+.four img{
+    position: relative;
+    top: 60px;
+    left: 70px;
+              /image pot set/
+}
+.four p strong{
+    font-size: 30px;           /text set/
+    font-family: cursive;
+}
+
+
+.five{
+    position: relative;
+     right: 100px;
+    height: 400px;                    /* shape set*/
+    width: 400px;
+    background: url(graph\ \(8\).png);
+    
+    }
+
+    .five img{
+        position: relative;         /image pot set/
+        top: 50px;
+        left: 100px;
+        bottom: 20px;
+    }
+
+    .five p strong{
+        font-size: 30px;           /text set/
+    font-family: cursive;
+
+    }
+
+.six{
+
+    position: relative;
+    right: 50px;
+    height: 400px;                    /* shape set*/
+    width: 400px;
+    background: url(graph\ \(10\).png);
+
+}
+.six img{                                     /image pot set/
+
+    position: relative; 
+    left: 150px;
+}
+
+.six p strong{
+    font-size: 30px;           /text set/
+font-family: cursive;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    position: relative;    /* footer position*/
+   
+    width: 100%;
+}
+ .container li{
+    padding: 10px;
+    font-size: 30px;     /* list */
+    
+}
+h3{
+    margin-top: 5px;  /* heading of footer*/
+}

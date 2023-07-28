@@ -1,0 +1,9 @@
+div {
+    height: 500px;
+    width: 500px;
+    background:url(img/shape1.png);
+}
+img{
+    height: 300px;
+    width: 300px;
+}
