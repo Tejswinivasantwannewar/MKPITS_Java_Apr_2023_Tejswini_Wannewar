@@ -1,5 +1,6 @@
 use sakila
 show tables
+select * from customer
 select * from actor where first_name="nick" and actor_id=2
 select first_name ,title from customer join rental 
 on rental.customer_id=customer.customer_id join inventory
