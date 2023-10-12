@@ -1,7 +1,8 @@
 
  
  -- (14) Retrieve the rental date and return date for each rental made by customer "Mary Harris".
-
+use sakila
+show tables
    select* from customer
    select* from rental 
    select*from inventory 
