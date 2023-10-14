@@ -4,7 +4,7 @@ use sakila
  drop procedure displayNumberByUsingBasicLoop
    -- ============ create a store procedure ============
    Delimiter //
-   create procedure displayNumberByUsingBasicLoop(n int)
+   create procedure displayNumberByUsingBasicLoop1(n int)
 begin
    declare counter int ; 
    declare string varchar(50); 
@@ -24,7 +24,7 @@ end
   //
   delimiter ;
   -- ============ call store procedure =================
-  call displayNumberByUsingBasicLoop(5)
+  call displayNumberByUsingBasicLoop1(5)
     
   
   

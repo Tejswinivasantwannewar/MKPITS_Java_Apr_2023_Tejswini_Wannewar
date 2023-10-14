@@ -1,10 +1,8 @@
 use sakila
  
- -- (1)  Display the number by using repeatant loop
- drop procedure displayNumberByUsingRepeatLoop
-   -- ============ create a store procedure ============
+ -- (1)  Display the number by using repeatant loop   -- ============ create a store procedure ============
    Delimiter //
-   create procedure displayNumberByUsingRepeatLoop(n int)
+   create procedure displayNumberByUsingRepeatLoop1(n int)
 begin
    declare counter int ; 
    declare string varchar(50); 
@@ -21,7 +19,7 @@ end
   //
   delimiter ;
   -- ============ call store procedure =================
-  call displayNumberByUsingRepeatLoop(5)
+  call displayNumberByUsingRepeatLoop1(5)
     
   
   

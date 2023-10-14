@@ -10,5 +10,7 @@ select sum(amount) into total_amount from payment  where customer_id =cust_id;
 END
 // DELIMITER ;
 drop procedure  sumOfCustomerPayment
-call sumOfCustomerPayment(2,@total_amount)
+
+CALL sumOfCustomerPayment (2,@total_amount)
+
 select @total_amount
