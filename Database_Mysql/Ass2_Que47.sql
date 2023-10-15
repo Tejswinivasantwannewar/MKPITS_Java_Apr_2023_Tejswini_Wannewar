@@ -1,4 +1,5 @@
 use sakila
+show tables
  
  -- (47) List the rental date and rental duration for each rental made by customer "James Clark".
 
