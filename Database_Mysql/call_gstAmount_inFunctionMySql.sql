@@ -13,10 +13,7 @@ return gst;
 end //
   DELIMITER ;
   
-  
---   use sakila
-show tables
-select * from sales_by_store
+
   select payment_id,amount,callgst(amount) as gst, amount + callgst(amount) from payment;
   
   Calculate Total Order Value
