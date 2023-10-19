@@ -9,6 +9,6 @@ begin
 declare  uniqe_id varchar(50);
 set  uniqe_id =concat(left(First_name,4),right(last_name,4),right(mobile_number,5),left(unique_id,1));
 return uniqe_id;
-end //
+end // 
 delimiter ;
 select get_uniqeId("tejswini","wannewar","9284186651","@#$%")
