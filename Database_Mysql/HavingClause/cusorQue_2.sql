@@ -34,4 +34,4 @@ end
 select* from new_name_city
 ALTER TABLE new_name_city ADD first_name varchar(50);
 ALTER TABLE new_name_city ADD last_name varchar(50);
-ALTER TABLE new_name_city drop column cust_name
+ALTER TABLE new_name_city drop column cust_name  
