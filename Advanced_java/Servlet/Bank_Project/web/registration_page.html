@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bank_Application</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            
+        </style>
+    </head>
+    <body>
+       <div> 
+           
+           <form action="connectionServlet" method="post">
+                  <table align="center" cellpadding="10" border="3">
+                      <tr>
+              <td colspan="2" align="center">
+                  <h1>Customer_Details</h1>
+              </td>
+            </tr>
+             <tr>
+              <td><label> User_id</label></td>
+              <br/>
+              <td><input type="text" name="userid" placeholder="useId" /></td>
+              <br /><br/>
+            </tr> 
+            <tr>
+              <td><label> Name</label></td>
+              <br/>
+              <td><input type="text" name="Name" placeholder="name" /></td>
+              <br /><br/>
+            </tr>
+            
+             <tr>
+              <td><label> Address</label></td>
+
+              <td>
+                <textarea name="address" rows="5" cols="40"></textarea>
+              </td>
+            </tr>  
+            
+            <tr>
+              <td><label> City</label></td>
+              <br />
+              <td><input type="text"  name="city"  placeholder=" city" /></td>
+              <br /><br />
+            </tr>
+            
+            <tr>
+              <td><label>Mobile_number</label></td>
+              <br />
+              <td><input type="text" name="mobile"  placeholder="mobileNumber" /></td>
+              <br /><br />
+            </tr>
+            
+            <tr>
+              <td><label> Email</label></td>
+              <br />
+              <td><input type="text" name="email"  placeholder="Email" /></td>
+              <br /><br />
+            </tr>
+            
+            <tr>
+              <td><label> Balance </label></td>
+              <br />
+              <td><input type="number" name="balance" placeholder="Balance" /></td>
+              <br /><br />
+            </tr>
+            <tr>
+              <td><label> Password</label></td>
+              <br/>
+              <td><input type="text" name="password" placeholder="password" /></td>
+              <br /><br/>
+            </tr>
+
+             <tr>
+                 <td colspan="2" align="center">
+                  <input type="submit" value="LogIn"></td>
+            </tr>    
+           </table>
+            
+     
+        </form>
+        </div>
+    </body>
+</html>
