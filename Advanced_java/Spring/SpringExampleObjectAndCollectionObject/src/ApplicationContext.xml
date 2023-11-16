@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    
+<!--    <bean id="studentbean" class="Stud.Student">  
+<property name="name" value="Tejswini_Wannewar"></property>  
+</bean>  -->
+
+<bean id="emp" class="Employee.Emplyoee">
+    
+    <constructor-arg value="101" type="int"> </constructor-arg>
+    <constructor-arg value="Teju"> </constructor-arg>
+    <constructor-arg>
+        <ref bean="address"></ref>
+    </constructor-arg>
+     
+</bean>
+
+<bean id="address" class="Employee.Address">
+    <constructor-arg value="Nagpur" ></constructor-arg>
+    <constructor-arg value="Maharashtra"></constructor-arg>
+    <constructor-arg value="India" ></constructor-arg>
+</bean>
+
+
+<bean id="ques" class="que.Question">  
+    <constructor-arg value="1001"></constructor-arg>
+    <constructor-arg value="capital of india"></constructor-arg>
+    
+    <constructor-arg>
+        <list>
+            <value>Mumbai</value>
+            <value>Delhi</value>
+            <value>Chennai</value>
+         
+        </list>
+    </constructor-arg>
+</bean>
+
+
+
+</beans>
