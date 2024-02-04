@@ -18,4 +18,4 @@ BEGIN
 END//
 DELIMITER ;
 
-select calculateAge('1993-04-17')
+select calculateAge('1993-04-17')t
